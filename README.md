@@ -49,7 +49,7 @@ The model used in this project is Llama3.2 (1B/3B) or Llama 3.1 (8B), depending 
     ```
 
 4. Set Up the Ollama Server:
-   - Make sure you have [Ollama](https://ollama.com/) installed and configured.
+   Make sure you have [Ollama](https://ollama.com/) installed and configured.
 
 ## Download the Models
 
