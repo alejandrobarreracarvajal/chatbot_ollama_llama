@@ -1,61 +1,56 @@
-# Chatbot para Procesamiento de Archivos y Análisis sin Conexión a Internet
+# Chatbot for File Processing and Analysis Without Internet Connection Based on CPU or GPU Architecture and Different Llama Models
 
-Este proyecto es un chatbot que utiliza modelos de Llama para procesar y responder a mensajes de texto sin la necesidad de una conexión a Internet.
+🌍 **Democratizing Access to Open Source Artificial Intelligence**  
+Open-source artificial intelligence has transformed the way we process data and interact in the digital environment. Models like Llama3.2 (1B/3B) and Llama 3.1 (8B) represent significant advancements made by the community, offering powerful and accessible solutions for everyone.
 
-## Descripción del Proyecto
+👥 **Project Description**  
+This project presents a chatbot that utilizes Llama3.2 (1B/3B) and Llama 3.1 (8B) models to process and respond to text messages without the need for an Internet connection. The chatbot is capable of handling a variety of file formats, including CSV, PDF, JSON, images (JPG/PNG), Word documents (.docx), text files (.txt), and Python (.py) or Jupyter Notebook (.ipynb) code.
 
-Este proyecto utiliza los modelos Llama3.2 (1B/3B) y Llama 3.1 (8B) para procesar y responder a mensajes de texto sin la necesidad de una conexión a Internet. El chatbot es capaz de procesar archivos de diferentes formatos, incluyendo CSV, PDF, JSON, imágenes (JPG/PNG), documentos de Word (.docx), archivos de texto (.txt), y código Python (.py) o cuadernos de Jupyter (.ipynb).
+✨ **Key Features:**
+- **Smooth Interaction:** Developed in Gradio, it provides an intuitive and fluid user experience.
+- **File Versatility:** Capable of processing multiple formats, ensuring flexibility in data handling.
+- **Security First:** Operates locally, ensuring user data privacy.
+- **Accessible for Everyone:** Llama3.2 (1B/3B) models are optimized for CPU, allowing use without the need for a GPU, increasing accessibility for users with limited hardware.
 
-## Características clave
+## Benefits for Communities with Limited Resources
 
-- **Interacción suave:** desarrollado en Gradio, proporciona una experiencia de usuario intuitiva.
-- **Versatilidad de archivos:** capaz de procesar múltiples formatos de archivos.
-- **Seguridad primero:** funciona localmente, garantizando la privacidad de los datos.
-- **Accesible para todos:** los modelos Llama3.2 (1B/3B) están optimizados para CPU, lo que permite su uso sin requerir una GPU, aumentando la accesibilidad para usuarios con hardware limitado.
+This project aims to democratize access to artificial intelligence, enabling more people, including those in rural communities or with limited resources, to benefit from the advantages of artificial intelligence without the need for an Internet connection or powerful hardware.
 
-## Importancia de la Inteligencia Artificial Abierta
+## Model Configuration
 
-La inteligencia artificial abierta ha revolucionado la forma en que procesamos datos y interactuamos digitalmente. Los modelos como Llama3.2 (1B/3B) y Llama 3.1 (8B) son un testimonio de los avances significativos realizados por la comunidad, ofreciendo soluciones poderosas y accesibles para todos.
+The model used in this project is Llama3.2 (1B/3B) or Llama 3.1 (8B), depending on the selected configuration. The model configuration can be changed in the `main.py` file.
 
-## Beneficios para Comunidades con Recursos Limitados
+## Prerequisites
 
-Este proyecto tiene como objetivo democratizar el acceso a la inteligencia artificial, permitiendo que más personas, incluyendo aquellas en comunidades rurales o con recursos limitados, puedan beneficiarse de las ventajas de la inteligencia artificial sin necesidad de una conexión a Internet o hardware potente.
+- **Python:** 3.12.2
+- **System:** macOS, Windows, or Linux
+- **Ollama:** installed and configured
 
-## Configuración del Modelo
+## Installation
 
-El modelo utilizado en este proyecto es el Llama3.2 (1B/3B) o Llama 3.1 (8B), dependiendo de la configuración seleccionada. La configuración del modelo se puede cambiar en el archivo `main.py`.
-
-## Requisitos previos
-
-- **Python**: 3.12.2
-- **Sistema**: macOS, Windows o Linux
-- **Ollama**: instalado y configurado
-
-## Instalación
-
-1. Clona el repositorio y navega al directorio del proyecto:
+1. Clone the repository and navigate to the project directory:
 
     ```bash
-    git clone https://github.com/your-username/chatbot_ollama_llama.git
+    git clone https://github.com/alejandrobarreracarvajal/chatbot_ollama_llama.git
     cd chatbot_ollama_llama
     ```
 
-2. Crea y activa un entorno de conda:
+2. Create and activate a conda environment:
 
     ```bash
     conda create --name chatbot_env python=3.12.2
     conda activate chatbot_env
     ```
 
-3. Instala las dependencias:
+3. Install the dependencies:
 
     ```bash
     pip install -r requirements.txt
     ```
 
-## Uso
+## Usage
 
-Para iniciar el chatbot, ejecuta el siguiente comando:
+To start the chatbot, run the following command:
 
 ```bash
 python main.py
