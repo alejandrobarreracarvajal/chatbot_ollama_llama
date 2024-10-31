@@ -47,6 +47,23 @@ The model used in this project is Llama3.2 (1B/3B) or Llama 3.1 (8B), depending 
     ```bash
     pip install -r requirements.txt
     ```
+4. **Set up the Ollama server:**
+   - Make sure you have [Ollama](https://ollama.com/) installed and configured.
+   - Adjust the server address in the code to `http://localhost:11434` or as appropriate for your setup.
+   - If using a GPU, set `num_gpu` in the model initialization line.
+
+## Usage
+
+### Prerequisites
+1. **Download Ollama:**  
+   Visit Ollama’s official website to download and install the tool.
+
+### Using the Ollama CLI
+If your goal is to run Llama 3 as a chatbot, you can start it directly from the terminal with the following command:
+
+```bash
+ollama run llama3
+```
 
 ## Usage
 
