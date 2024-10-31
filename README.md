@@ -48,9 +48,7 @@ The model used in this project is Llama3.2 (1B/3B) or Llama 3.1 (8B), depending 
     pip install -r requirements.txt
     ```
 
-## Before Running the Code
-
-4. **Set Up the Ollama Server:**
+4. Set Up the Ollama Server:
    - Make sure you have [Ollama](https://ollama.com/) installed and configured.
 
 ## Download the Models
