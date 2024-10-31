@@ -52,14 +52,10 @@ The model used in this project is Llama3.2 (1B/3B) or Llama 3.1 (8B), depending 
 
    Make sure you have [Ollama](https://ollama.com/) installed and configured.
 
-## Download the Models
-
-### Available Models:
+### Used models:
 - **Llama3.2 1B:** `llama3.2:1b` (recommended for systems with limited resources)
 - **Llama3.2 3B:** `llama3.2`
 - **Llama3.1 8B:** `llama3.1` (advanced model, requires high memory and processing)
-
----
 
 ## Usage
 
