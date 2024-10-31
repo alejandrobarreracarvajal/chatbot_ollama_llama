@@ -60,10 +60,10 @@ The model used in this project is Llama3.2 (1B/3B) or Llama 3.1 (8B), depending 
 ## Usage
 
 ### Using the Ollama
-If your goal is to run Llama 3 as a chatbot, you can start it directly from the terminal with the following command:
+If your goal is to run  Llama3.2 (1B/3B) our Llama 3.1 (8B) as a chatbot, you can start it directly from the terminal with the following command:
 
 ```bash
-ollama run llama3
+ollama run llama3.2:1b
 ```
 ### Using the Chatbot
 To start the chatbot, run the following command:
